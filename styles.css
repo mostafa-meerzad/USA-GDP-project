@@ -8,7 +8,20 @@ body{
     place-content: center;
 }
 
-.container{
+.main{
 
     outline: 2px dashed;
+    width: 90vw;
+    height: 70vh;
+    display: grid;
+    place-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 2px solid gray;
+}
+
+.rect{
+    fill: red;
 }
