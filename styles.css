@@ -20,8 +20,17 @@ body{
 
 .container{
     border: 2px solid gray;
+    overflow: visible;
+    padding-inline-start: 2rem;
 }
 
-.rect{
+.bar{
+    fill: red;
+}
+
+.bar:hover{
+    fill: gray;
+}
+.tooltip{
     fill: red;
 }
