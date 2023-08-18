@@ -7,12 +7,14 @@ body{
     display: grid;
     place-content: center;
 }
-
+* {
+    position: relative;
+}
 .main{
 
     outline: 2px dashed;
-    width: 90vw;
-    height: 70vh;
+    /* width: 90vw; */
+    /* height: 70vh; */
     display: grid;
     place-content: center;
     align-items: center;
@@ -30,7 +32,17 @@ body{
 
 .bar:hover{
     fill: gray;
+    /* z-index: 0; */
 }
-.tooltip{
-    fill: red;
+#tooltip{
+    /* fill: red; */
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* opacity: 1 !important; */
+    /* fill: #fff; */
+    /* z-index: 100; */
 }
